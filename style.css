@@ -3,22 +3,76 @@ body {
     margin: 0px;
     padding: 0px;
 }
-
+ 
+h1,h2,h3,h4 {
+    font-family:nova square, cursive ;
+}
 
 
 nav {
     background-color: rgba(255,255,255,0);
     color: darkred;
 }
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
 
 .link {
     background-color:rgba(255,255,255,0) ;
     color: darkred;
 }
 
-.imglorem {
-    background-image:linear-gradient( rgba(255,255,255,1), rgba(255,255,255,0)), url(switzerland-862870_1920.jpg) ;
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+.bg-custom {
+    background-color: rgb(236,236,236);
 }
+
+.img-custom{
+background: url(mountains2.png),linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)), url(switzerland-862870_1920.jpg);
+height: 100vh;
+background-position: center;
+background-size: cover;
+}
+
+
+.lorem-space {
+    letter-spacing: 40px;
+    font-size: 50px;
+    color: darkred;
+}
+.text-decoration-none {
+    color: black;
+}
+
+.icon-custom {
+    text-align: center;
+    font-size: 40px;
+    color: darkred;
+}
+.icon-custom2 {
+    font-size: 30px;
+    color: darkred;
+}
+
+.p-custom {
+    color: black;
+    font-size: 23px;
+    border-bottom: solid 4px; color: darkred;
+}
+
+/* .p-custom::before  .p-custom::after {
+    content:"";
+    background-color: white;
+    height: 5px;
+    width: 5px;
+    border: 15px solid darkred;
+    border-radius:50%;
+    position: absolute;
+}
+
+.p-custom {
+    position: relative;
+    top: 100;
+} */
