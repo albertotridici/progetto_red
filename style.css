@@ -31,11 +31,12 @@ a {
 }
 
 .img-custom{
-background: url(mountains2.png),linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)), url(switzerland-862870_1920.jpg);
-height: 100vh;
-background-position: center;
-display: block;
-  margin: 0 auto;
+    height: 100vh;
+    margin-top: 20vh;
+    background: linear-gradient(rgb(236,236,236,0.1), rgb(236,236,236,0.5)), url(mountains.png), linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)), url(switzerland-862870_1920.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -156,12 +157,6 @@ display: block;
     border: none;
 }
 
-/* .img-footer {
-    background-image: url(other.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 10px;
-    
-    
-   
-} */
+.background-footer {
+    background-color: darkred;
+}
